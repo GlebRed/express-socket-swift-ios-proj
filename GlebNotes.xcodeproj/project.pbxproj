@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F7EDDCB621BD641900D8EB3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7EDDCB521BD641900D8EB3D /* AppDelegate.swift */; };
+		F7EDDCB821BD641900D8EB3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7EDDCB721BD641900D8EB3D /* ViewController.swift */; };
+		F7EDDCBB21BD641900D8EB3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7EDDCB921BD641900D8EB3D /* Main.storyboard */; };
+		F7EDDCBD21BD641A00D8EB3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7EDDCBC21BD641A00D8EB3D /* Assets.xcassets */; };
+		F7EDDCC021BD641A00D8EB3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7EDDCBE21BD641A00D8EB3D /* LaunchScreen.storyboard */; };
+		F7EDDCCB21BD641A00D8EB3D /* GlebNotesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7EDDCCA21BD641A00D8EB3D /* GlebNotesTests.swift */; };
+		F7EDDCD621BD641A00D8EB3D /* GlebNotesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7EDDCD521BD641A00D8EB3D /* GlebNotesUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F7EDDCC721BD641A00D8EB3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7EDDCAA21BD641900D8EB3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7EDDCB121BD641900D8EB3D;
+			remoteInfo = GlebNotes;
+		};
+		F7EDDCD221BD641A00D8EB3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7EDDCAA21BD641900D8EB3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7EDDCB121BD641900D8EB3D;
+			remoteInfo = GlebNotes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F7EDDCB221BD641900D8EB3D /* GlebNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GlebNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7EDDCB521BD641900D8EB3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F7EDDCB721BD641900D8EB3D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F7EDDCBA21BD641900D8EB3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F7EDDCBC21BD641A00D8EB3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7EDDCBF21BD641A00D8EB3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F7EDDCC121BD641A00D8EB3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7EDDCC621BD641A00D8EB3D /* GlebNotesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlebNotesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7EDDCCA21BD641A00D8EB3D /* GlebNotesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlebNotesTests.swift; sourceTree = "<group>"; };
+		F7EDDCCC21BD641A00D8EB3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7EDDCD121BD641A00D8EB3D /* GlebNotesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlebNotesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7EDDCD521BD641A00D8EB3D /* GlebNotesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlebNotesUITests.swift; sourceTree = "<group>"; };
+		F7EDDCD721BD641A00D8EB3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7EDDCAF21BD641900D8EB3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7EDDCC321BD641A00D8EB3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7EDDCCE21BD641A00D8EB3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F7EDDCA921BD641900D8EB3D = {
+			isa = PBXGroup;
+			children = (
+				F7EDDCB421BD641900D8EB3D /* GlebNotes */,
+				F7EDDCC921BD641A00D8EB3D /* GlebNotesTests */,
+				F7EDDCD421BD641A00D8EB3D /* GlebNotesUITests */,
+				F7EDDCB321BD641900D8EB3D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7EDDCB321BD641900D8EB3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7EDDCB221BD641900D8EB3D /* GlebNotes.app */,
+				F7EDDCC621BD641A00D8EB3D /* GlebNotesTests.xctest */,
+				F7EDDCD121BD641A00D8EB3D /* GlebNotesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7EDDCB421BD641900D8EB3D /* GlebNotes */ = {
+			isa = PBXGroup;
+			children = (
+				F7EDDCB521BD641900D8EB3D /* AppDelegate.swift */,
+				F7EDDCB721BD641900D8EB3D /* ViewController.swift */,
+				F7EDDCB921BD641900D8EB3D /* Main.storyboard */,
+				F7EDDCBC21BD641A00D8EB3D /* Assets.xcassets */,
+				F7EDDCBE21BD641A00D8EB3D /* LaunchScreen.storyboard */,
+				F7EDDCC121BD641A00D8EB3D /* Info.plist */,
+			);
+			path = GlebNotes;
+			sourceTree = "<group>";
+		};
+		F7EDDCC921BD641A00D8EB3D /* GlebNotesTests */ = {
+			isa = PBXGroup;
+			children = (
+				F7EDDCCA21BD641A00D8EB3D /* GlebNotesTests.swift */,
+				F7EDDCCC21BD641A00D8EB3D /* Info.plist */,
+			);
+			path = GlebNotesTests;
+			sourceTree = "<group>";
+		};
+		F7EDDCD421BD641A00D8EB3D /* GlebNotesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F7EDDCD521BD641A00D8EB3D /* GlebNotesUITests.swift */,
+				F7EDDCD721BD641A00D8EB3D /* Info.plist */,
+			);
+			path = GlebNotesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7EDDCB121BD641900D8EB3D /* GlebNotes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7EDDCDA21BD641A00D8EB3D /* Build configuration list for PBXNativeTarget "GlebNotes" */;
+			buildPhases = (
+				F7EDDCAE21BD641900D8EB3D /* Sources */,
+				F7EDDCAF21BD641900D8EB3D /* Frameworks */,
+				F7EDDCB021BD641900D8EB3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GlebNotes;
+			productName = GlebNotes;
+			productReference = F7EDDCB221BD641900D8EB3D /* GlebNotes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F7EDDCC521BD641A00D8EB3D /* GlebNotesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7EDDCDD21BD641A00D8EB3D /* Build configuration list for PBXNativeTarget "GlebNotesTests" */;
+			buildPhases = (
+				F7EDDCC221BD641A00D8EB3D /* Sources */,
+				F7EDDCC321BD641A00D8EB3D /* Frameworks */,
+				F7EDDCC421BD641A00D8EB3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7EDDCC821BD641A00D8EB3D /* PBXTargetDependency */,
+			);
+			name = GlebNotesTests;
+			productName = GlebNotesTests;
+			productReference = F7EDDCC621BD641A00D8EB3D /* GlebNotesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F7EDDCD021BD641A00D8EB3D /* GlebNotesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7EDDCE021BD641A00D8EB3D /* Build configuration list for PBXNativeTarget "GlebNotesUITests" */;
+			buildPhases = (
+				F7EDDCCD21BD641A00D8EB3D /* Sources */,
+				F7EDDCCE21BD641A00D8EB3D /* Frameworks */,
+				F7EDDCCF21BD641A00D8EB3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7EDDCD321BD641A00D8EB3D /* PBXTargetDependency */,
+			);
+			name = GlebNotesUITests;
+			productName = GlebNotesUITests;
+			productReference = F7EDDCD121BD641A00D8EB3D /* GlebNotesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7EDDCAA21BD641900D8EB3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Gleb Redko";
+				TargetAttributes = {
+					F7EDDCB121BD641900D8EB3D = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					F7EDDCC521BD641A00D8EB3D = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = F7EDDCB121BD641900D8EB3D;
+					};
+					F7EDDCD021BD641A00D8EB3D = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = F7EDDCB121BD641900D8EB3D;
+					};
+				};
+			};
+			buildConfigurationList = F7EDDCAD21BD641900D8EB3D /* Build configuration list for PBXProject "GlebNotes" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7EDDCA921BD641900D8EB3D;
+			productRefGroup = F7EDDCB321BD641900D8EB3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7EDDCB121BD641900D8EB3D /* GlebNotes */,
+				F7EDDCC521BD641A00D8EB3D /* GlebNotesTests */,
+				F7EDDCD021BD641A00D8EB3D /* GlebNotesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7EDDCB021BD641900D8EB3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7EDDCC021BD641A00D8EB3D /* LaunchScreen.storyboard in Resources */,
+				F7EDDCBD21BD641A00D8EB3D /* Assets.xcassets in Resources */,
+				F7EDDCBB21BD641900D8EB3D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7EDDCC421BD641A00D8EB3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7EDDCCF21BD641A00D8EB3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7EDDCAE21BD641900D8EB3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7EDDCB821BD641900D8EB3D /* ViewController.swift in Sources */,
+				F7EDDCB621BD641900D8EB3D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7EDDCC221BD641A00D8EB3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7EDDCCB21BD641A00D8EB3D /* GlebNotesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7EDDCCD21BD641A00D8EB3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7EDDCD621BD641A00D8EB3D /* GlebNotesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F7EDDCC821BD641A00D8EB3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7EDDCB121BD641900D8EB3D /* GlebNotes */;
+			targetProxy = F7EDDCC721BD641A00D8EB3D /* PBXContainerItemProxy */;
+		};
+		F7EDDCD321BD641A00D8EB3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7EDDCB121BD641900D8EB3D /* GlebNotes */;
+			targetProxy = F7EDDCD221BD641A00D8EB3D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F7EDDCB921BD641900D8EB3D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7EDDCBA21BD641900D8EB3D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F7EDDCBE21BD641A00D8EB3D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7EDDCBF21BD641A00D8EB3D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F7EDDCD821BD641A00D8EB3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F7EDDCD921BD641A00D8EB3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7EDDCDB21BD641A00D8EB3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GlebNotes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Gleb-Redko.GlebNotes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F7EDDCDC21BD641A00D8EB3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GlebNotes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Gleb-Redko.GlebNotes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F7EDDCDE21BD641A00D8EB3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GlebNotesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Gleb-Redko.GlebNotesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GlebNotes.app/GlebNotes";
+			};
+			name = Debug;
+		};
+		F7EDDCDF21BD641A00D8EB3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GlebNotesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Gleb-Redko.GlebNotesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GlebNotes.app/GlebNotes";
+			};
+			name = Release;
+		};
+		F7EDDCE121BD641A00D8EB3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GlebNotesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Gleb-Redko.GlebNotesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GlebNotes;
+			};
+			name = Debug;
+		};
+		F7EDDCE221BD641A00D8EB3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GlebNotesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Gleb-Redko.GlebNotesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GlebNotes;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7EDDCAD21BD641900D8EB3D /* Build configuration list for PBXProject "GlebNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7EDDCD821BD641A00D8EB3D /* Debug */,
+				F7EDDCD921BD641A00D8EB3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7EDDCDA21BD641A00D8EB3D /* Build configuration list for PBXNativeTarget "GlebNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7EDDCDB21BD641A00D8EB3D /* Debug */,
+				F7EDDCDC21BD641A00D8EB3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7EDDCDD21BD641A00D8EB3D /* Build configuration list for PBXNativeTarget "GlebNotesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7EDDCDE21BD641A00D8EB3D /* Debug */,
+				F7EDDCDF21BD641A00D8EB3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7EDDCE021BD641A00D8EB3D /* Build configuration list for PBXNativeTarget "GlebNotesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7EDDCE121BD641A00D8EB3D /* Debug */,
+				F7EDDCE221BD641A00D8EB3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7EDDCAA21BD641900D8EB3D /* Project object */;
+}
