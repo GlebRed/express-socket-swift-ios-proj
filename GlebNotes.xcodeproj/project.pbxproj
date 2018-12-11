@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		32537F93B2CF028585FC2B76 /* Pods_GlebNotesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C0DD9C9129EA7D73CCCA786 /* Pods_GlebNotesTests.framework */; };
+		914D66D6F14AD1B615C3343A /* Pods_GlebNotesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D22AC980C8F965FBCD403829 /* Pods_GlebNotesUITests.framework */; };
+		B7C1F36E3C93ED269F860800 /* Pods_GlebNotes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97C389FD477DEDA787B6E28D /* Pods_GlebNotes.framework */; };
 		F7EDDCB621BD641900D8EB3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7EDDCB521BD641900D8EB3D /* AppDelegate.swift */; };
 		F7EDDCB821BD641900D8EB3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7EDDCB721BD641900D8EB3D /* ViewController.swift */; };
 		F7EDDCBB21BD641900D8EB3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7EDDCB921BD641900D8EB3D /* Main.storyboard */; };
@@ -34,6 +37,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03016C4D683F04A4853C3360 /* Pods-GlebNotes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlebNotes.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GlebNotes/Pods-GlebNotes.debug.xcconfig"; sourceTree = "<group>"; };
+		4472130253EDCE0A4140083F /* Pods-GlebNotesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlebNotesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GlebNotesTests/Pods-GlebNotesTests.release.xcconfig"; sourceTree = "<group>"; };
+		47152CCA521A29BC9275ADAF /* Pods-GlebNotesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlebNotesUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GlebNotesUITests/Pods-GlebNotesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		83EB194D097FF8F0B6D1777C /* Pods-GlebNotesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlebNotesUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GlebNotesUITests/Pods-GlebNotesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		86A52482C4535F35F40DEAE5 /* Pods-GlebNotes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlebNotes.release.xcconfig"; path = "Pods/Target Support Files/Pods-GlebNotes/Pods-GlebNotes.release.xcconfig"; sourceTree = "<group>"; };
+		8C0DD9C9129EA7D73CCCA786 /* Pods_GlebNotesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GlebNotesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97C389FD477DEDA787B6E28D /* Pods_GlebNotes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GlebNotes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D22AC980C8F965FBCD403829 /* Pods_GlebNotesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GlebNotesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7EDDCB221BD641900D8EB3D /* GlebNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GlebNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7EDDCB521BD641900D8EB3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7EDDCB721BD641900D8EB3D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,7 @@
 		F7EDDCD121BD641A00D8EB3D /* GlebNotesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlebNotesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7EDDCD521BD641A00D8EB3D /* GlebNotesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlebNotesUITests.swift; sourceTree = "<group>"; };
 		F7EDDCD721BD641A00D8EB3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA03E262C964FC3E4CFD076B /* Pods-GlebNotesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlebNotesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GlebNotesTests/Pods-GlebNotesTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7C1F36E3C93ED269F860800 /* Pods_GlebNotes.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32537F93B2CF028585FC2B76 /* Pods_GlebNotesTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				914D66D6F14AD1B615C3343A /* Pods_GlebNotesUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C4444FD66831C22622973EE7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				97C389FD477DEDA787B6E28D /* Pods_GlebNotes.framework */,
+				8C0DD9C9129EA7D73CCCA786 /* Pods_GlebNotesTests.framework */,
+				D22AC980C8F965FBCD403829 /* Pods_GlebNotesUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F7EDDCA921BD641900D8EB3D = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +106,8 @@
 				F7EDDCC921BD641A00D8EB3D /* GlebNotesTests */,
 				F7EDDCD421BD641A00D8EB3D /* GlebNotesUITests */,
 				F7EDDCB321BD641900D8EB3D /* Products */,
+				FA912C8108A2F99C1FE552D4 /* Pods */,
+				C4444FD66831C22622973EE7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +152,19 @@
 			path = GlebNotesUITests;
 			sourceTree = "<group>";
 		};
+		FA912C8108A2F99C1FE552D4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				03016C4D683F04A4853C3360 /* Pods-GlebNotes.debug.xcconfig */,
+				86A52482C4535F35F40DEAE5 /* Pods-GlebNotes.release.xcconfig */,
+				FA03E262C964FC3E4CFD076B /* Pods-GlebNotesTests.debug.xcconfig */,
+				4472130253EDCE0A4140083F /* Pods-GlebNotesTests.release.xcconfig */,
+				83EB194D097FF8F0B6D1777C /* Pods-GlebNotesUITests.debug.xcconfig */,
+				47152CCA521A29BC9275ADAF /* Pods-GlebNotesUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F7EDDCDA21BD641A00D8EB3D /* Build configuration list for PBXNativeTarget "GlebNotes" */;
 			buildPhases = (
+				494E4A534A21868947407C6E /* [CP] Check Pods Manifest.lock */,
 				F7EDDCAE21BD641900D8EB3D /* Sources */,
 				F7EDDCAF21BD641900D8EB3D /* Frameworks */,
 				F7EDDCB021BD641900D8EB3D /* Resources */,
+				2F8FD7A617432945755F58FB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +191,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F7EDDCDD21BD641A00D8EB3D /* Build configuration list for PBXNativeTarget "GlebNotesTests" */;
 			buildPhases = (
+				86F720538A4775D8721A71F0 /* [CP] Check Pods Manifest.lock */,
 				F7EDDCC221BD641A00D8EB3D /* Sources */,
 				F7EDDCC321BD641A00D8EB3D /* Frameworks */,
 				F7EDDCC421BD641A00D8EB3D /* Resources */,
@@ -167,6 +210,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F7EDDCE021BD641A00D8EB3D /* Build configuration list for PBXNativeTarget "GlebNotesUITests" */;
 			buildPhases = (
+				6C5D9EBDD9385905D5EA9398 /* [CP] Check Pods Manifest.lock */,
 				F7EDDCCD21BD641A00D8EB3D /* Sources */,
 				F7EDDCCE21BD641A00D8EB3D /* Frameworks */,
 				F7EDDCCF21BD641A00D8EB3D /* Resources */,
@@ -250,6 +294,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2F8FD7A617432945755F58FB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GlebNotes/Pods-GlebNotes-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketIO.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GlebNotes/Pods-GlebNotes-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		494E4A534A21868947407C6E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GlebNotes-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C5D9EBDD9385905D5EA9398 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GlebNotesUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86F720538A4775D8721A71F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GlebNotesTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F7EDDCAE21BD641900D8EB3D /* Sources */ = {
@@ -430,6 +567,7 @@
 		};
 		F7EDDCDB21BD641A00D8EB3D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03016C4D683F04A4853C3360 /* Pods-GlebNotes.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +585,7 @@
 		};
 		F7EDDCDC21BD641A00D8EB3D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86A52482C4535F35F40DEAE5 /* Pods-GlebNotes.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +603,7 @@
 		};
 		F7EDDCDE21BD641A00D8EB3D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA03E262C964FC3E4CFD076B /* Pods-GlebNotesTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +624,7 @@
 		};
 		F7EDDCDF21BD641A00D8EB3D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4472130253EDCE0A4140083F /* Pods-GlebNotesTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +645,7 @@
 		};
 		F7EDDCE121BD641A00D8EB3D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83EB194D097FF8F0B6D1777C /* Pods-GlebNotesUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +665,7 @@
 		};
 		F7EDDCE221BD641A00D8EB3D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47152CCA521A29BC9275ADAF /* Pods-GlebNotesUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
